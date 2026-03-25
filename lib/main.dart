@@ -96,11 +96,30 @@ class MainApp extends StatelessWidget {
                     borderRadius: BorderRadiusGeometry.circular(50),
                   ),
 
-                  child: Center(
-                    child: Text("SING IN APPLE", 
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.white),
-                    ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsGeometry.only(left: 5),
+                        child: SizedBox(
+                          width: 25,
+                          height: 25,
+                          child: Image.asset('apple.png'),
+                        ),
+                      ),
+
+                      Expanded(
+                        child: Center(
+                          child: Text("SING IN APPLE", 
+                           textAlign: TextAlign.center,
+                           style: TextStyle(color: Colors.white),
+                       ),
+                      ),
+                      ),
+                    ],
+                    
                   ),
                 ),
             
@@ -115,11 +134,30 @@ class MainApp extends StatelessWidget {
                     borderRadius: BorderRadiusGeometry.circular(50),
                   ),
 
-                  child: Center(
-                    child: Text("SING IN WITH FACEBOOK", 
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.white),
-                    ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsGeometry.only(left: 5),
+                        child: SizedBox(
+                          width: 25,
+                          height: 25,
+                          child: Image.asset('facebook.png'),
+                        ),
+                      ),
+
+                      Expanded(
+                        child: Center(
+                          child: Text("SING IN WITH FACEBOOK", 
+                           textAlign: TextAlign.center,
+                           style: TextStyle(color: Colors.white),
+                       ),
+                      ),
+                      ),
+                    ],
+                    
                   ),
                 ),
             
@@ -134,11 +172,30 @@ class MainApp extends StatelessWidget {
                     borderRadius: BorderRadiusGeometry.circular(50),
                   ),
 
-                  child: Center(
-                    child: Text("SING IN WITH PHONE NUMBER", 
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.white),
-                    ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsGeometry.only(left: 5),
+                        child: SizedBox(
+                          width: 25,
+                          height: 25,
+                          child: Image.asset('mensagem.png'),
+                        ),
+                      ),
+
+                      Expanded(
+                        child: Center(
+                          child: Text("SING IN WITH PHONE NUMBER", 
+                           textAlign: TextAlign.center,
+                           style: TextStyle(color: Colors.white),
+                       ),
+                      ),
+                      ),
+                    ],
+                    
                   ),
                 ),
             
